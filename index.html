@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhishGuard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>PhishGuard</h1>
+  <p>Check suspicious emails and links before you trust them.</p>
+</header>
+
+<main>
+
+<section class="card">
+  <h2>Phishing Email Checker</h2>
+
+  <textarea id="emailInput"
+  placeholder="Paste a suspicious email here..."></textarea>
+
+  <button onclick="checkEmail()">
+    Check Email
+  </button>
+
+  <p id="emailResult"></p>
+</section>
+
+<section class="card">
+  <h2>Link Safety Checker</h2>
+
+  <input type="text"
+  id="linkInput"
+  placeholder="Paste a suspicious link here...">
+
+  <button onclick="checkLink()">
+    Check Link
+  </button>
+
+  <p id="linkResult"></p>
+</section>
+
+<section class="card">
+  <h2>Phishing Warning Signs</h2>
+
+  <ul>
+    <li>Urgent messages asking you to act fast</li>
+    <li>Spelling or grammar mistakes</li>
+    <li>Suspicious links or attachments</li>
+    <li>Requests for passwords or personal information</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <p>Created by Brooklyn Douglas | PhishGuard</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
