@@ -13,6 +13,48 @@
 </header>
 
 <main>
+<section class="card">
+  <h2>AI-Based Phishing Detection</h2>
+  <p>This feature gives the email a simulated AI risk score based on suspicious words and patterns.</p>
+  <button onclick="runAIDetection()">Run AI Detection</button>
+  <p id="aiResult"></p>
+</section>
+
+<section class="card">
+  <h2>Browser Extension Integration</h2>
+  <p>This feature represents how PhishGuard could work as a browser extension to warn users before they open suspicious links.</p>
+  <button onclick="checkExtension()">Check Extension Status</button>
+  <p id="extensionResult"></p>
+</section>
+
+<section class="card">
+  <h2>Email Scanning Automation</h2>
+  <p>This feature simulates automatically scanning emails for phishing risks.</p>
+  <button onclick="scanInbox()">Scan Inbox</button>
+  <p id="scanResult"></p>
+</section>
+
+<section class="card">
+  <h2>User Account System</h2>
+  <input type="text" id="username" placeholder="Enter username">
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="loginUser()">Login</button>
+  <p id="loginResult"></p>
+</section>
+
+<section class="card">
+  <h2>External Security API Integration</h2>
+  <p>This feature simulates checking a link through an outside security service.</p>
+  <button onclick="runAPICheck()">Run Security API Check</button>
+  <p id="apiResult"></p>
+</section>
+
+<section class="card">
+  <h2>Encrypted Data Storage</h2>
+  <p>This feature simulates encrypting and saving a phishing report.</p>
+  <button onclick="encryptReport()">Encrypt Report</button>
+  <p id="encryptResult"></p>
+</section>
 
 <section class="card">
   <h2>Phishing Email Checker</h2>
