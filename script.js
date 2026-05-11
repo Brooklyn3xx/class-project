@@ -116,7 +116,7 @@ function scanInbox() {
     document.getElementById("scanResult");
 
   result.textContent =
-    "Inbox Scan Complete: 3 emails scanned. 1 suspicious email found.";
+    "Automatic Email Scan Complete: 5 emails scanned. Suspicious phishing activity detected in 1 message."
 
   result.className = "warning";
 }
